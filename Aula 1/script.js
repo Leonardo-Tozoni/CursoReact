@@ -35,7 +35,7 @@ const [lados, perimetro] = useQuadrado;
 console.log(lados);
 console.log(perimetro(10));
 
-//Spread
+//Spread = ...
 function showList (empresa, ...clientes){
   clientes.forEach((cliente) => {
     console.log(cliente, empresa);
@@ -47,3 +47,4 @@ showList('WideCommerce', 'Leonardo', 'Lucas', 'Allef', 'Nogara')
 const numeros = [10, 5, 20];
 const maior = Math.max(...numeros);
 console.log(maior);
+
